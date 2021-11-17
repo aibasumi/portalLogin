@@ -2,10 +2,13 @@ logging:
   config: classpath:log4j2-win.xml
 
 spring:
+  redis:
+    host: 10.41.0.225
+    port: 30999
   datasource:
-    url: jdbc:mysql://172.24.42.71:3306/portaldb?useOldAliasMetadataBehavior=true
-    username: portalap
-    password: IXB3ZC4xNjgh
+    url: jdbc:mysql://localhost:3306/portaldb?useOldAliasMetadataBehavior=true
+    username: root
+    password: b3BlbnN0YWNr
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
@@ -19,8 +22,8 @@ spring:
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
   cache:
     type: redis
-  redis:
-    database: 0 #沒設定
-    sentinel:
-      master: mymaster
-      nodes: 172.24.42.52:30102
+  # redis:
+  #   database: 0 #沒設定
+  #   sentinel:
+  #     master: mymaster
+  #     nodes: 172.24.42.52:30102

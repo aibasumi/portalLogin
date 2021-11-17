@@ -10,6 +10,7 @@ import com.tssco.portalLogin.Exception.SecurityExption;
 import com.tssco.portalLogin.Repository.PTSysRepository;
 import com.tssco.portalLogin.Services.LoginService;
 import com.tssco.portalLogin.Utils.JwtUtils;
+import com.tssco.portalLogin.Utils.RedisUtils;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -29,6 +30,9 @@ public class AuthController {
 
     @Autowired
     JwtUtils jwtUtils;
+
+    @Autowired
+    RedisUtils redisUtils;
 
     @Autowired
     private LoginService loginService;
@@ -70,6 +74,9 @@ public class AuthController {
         Map<String, Object> result = new HashMap<>();
         result.put( "token",token); 
         result.put( "account",account);
+
+        //儲存至Redis
+        redisUtils.set(account, result);
 
         ApiResponse  responseData = new ApiResponse();
         responseData.setStatus(true);
