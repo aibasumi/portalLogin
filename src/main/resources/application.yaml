@@ -1,0 +1,10 @@
+server:
+  port: 8886
+
+spring:
+  profiles:
+   active: dev
+jwt:
+#  hander: Autorization
+  expire: 604800 #7天
+  SECRET: jdhcbfjsueiokmvgdsjruehdbcnftsdk
