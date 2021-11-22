@@ -3217,3 +3217,697 @@ Using generated security password: 7253ab9b-2f42-4ccd-b499-adf808d722a9
 2021-11-17 09:34:32.471  INFO [SpringApplicationShutdownHook] ? [] [] Closing JPA EntityManagerFactory for persistence unit 'default'
 2021-11-17 09:34:32.473  INFO [SpringApplicationShutdownHook] ? [] [] HikariPool-1 - Shutdown initiated...
 2021-11-17 09:34:32.488  INFO [SpringApplicationShutdownHook] ? [] [] HikariPool-1 - Shutdown completed.
+2021-11-17 09:39:45.722  INFO [background-preinit] ? [] [] HV000001: Hibernate Validator 6.2.0.Final
+2021-11-17 09:39:45.760  INFO [main] ? [] [] Starting PortalLoginApplication using Java 11.0.12 on WongdeMacBook-Pro.local with PID 89079 (/Users/wongrainie/Project/springboot/portalLogin/target/classes started by wongrainie in /Users/wongrainie/Project/springboot/portalLogin)
+2021-11-17 09:39:45.765  INFO [main] ? [] [] The following profiles are active: dev
+2021-11-17 09:39:46.722  INFO [main] ? [] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-17 09:39:46.725  INFO [main] ? [] [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-17 09:39:46.867  INFO [main] ? [] [] Finished Spring Data repository scanning in 135 ms. Found 3 JPA repository interfaces.
+2021-11-17 09:39:46.881  INFO [main] ? [] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-17 09:39:46.883  INFO [main] ? [] [] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-17 09:39:46.896  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.HREmpRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-17 09:39:46.898  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.PTCodeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-17 09:39:46.899  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.PTSysRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-17 09:39:46.900  INFO [main] ? [] [] Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-11-17 09:39:47.164  INFO [main] ? [] [] Post-processing PropertySource instances
+2021-11-17 09:39:47.206  INFO [main] ? [] [] Converting PropertySource com.tssco.portalLogin.DecryptInitializer [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 09:39:47.224  INFO [main] ? [] [] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-11-17 09:39:47.224  INFO [main] ? [] [] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-11-17 09:39:47.224  INFO [main] ? [] [] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-11-17 09:39:47.225  INFO [main] ? [] [] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 09:39:47.226  INFO [main] ? [] [] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-11-17 09:39:47.226  INFO [main] ? [] [] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-11-17 09:39:47.226  INFO [main] ? [] [] Converting PropertySource Config resource 'class path resource [application-dev.yaml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 09:39:47.227  INFO [main] ? [] [] Converting PropertySource Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 09:39:47.264  INFO [main] ? [] [] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-11-17 09:39:47.561  INFO [main] ? [] [] Tomcat initialized with port(s): 8886 (http)
+2021-11-17 09:39:47.571  INFO [main] ? [] [] Initializing ProtocolHandler ["http-nio-8886"]
+2021-11-17 09:39:47.571  INFO [main] ? [] [] Starting service [Tomcat]
+2021-11-17 09:39:47.572  INFO [main] ? [] [] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-17 09:39:47.674  INFO [main] ? [] [] Initializing Spring embedded WebApplicationContext
+2021-11-17 09:39:47.675  INFO [main] ? [] [] Root WebApplicationContext: initialization completed in 1868 ms
+2021-11-17 09:39:47.737  INFO [main] ? [] [] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-11-17 09:39:47.741  INFO [main] ? [] [] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-11-17 09:39:47.828  INFO [main] ? [] [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-17 09:39:47.868  INFO [main] ? [] [] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-17 09:39:47.964  INFO [main] ? [] [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-17 09:39:48.050  INFO [main] ? [] [] HikariPool-1 - Starting...
+2021-11-17 09:39:48.471  INFO [main] ? [] [] HikariPool-1 - Start completed.
+2021-11-17 09:39:48.485  INFO [main] ? [] [] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-17 09:39:49.145  INFO [main] ? [] [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-17 09:39:49.154  INFO [main] ? [] [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-17 09:39:49.208  WARN [main] ? [] [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-17 09:39:50.105  INFO [main] ? [] [] 
+
+Using generated security password: be892c01-ac0c-4bd9-a8a0-b0288d67df6b
+
+2021-11-17 09:39:50.194  INFO [main] ? [] [] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67954d71, org.springframework.security.web.context.SecurityContextPersistenceFilter@4248608d, org.springframework.security.web.header.HeaderWriterFilter@55c75b72, org.springframework.security.web.authentication.logout.LogoutFilter@a712344, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@11f81488, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35cc5b75, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@234421ca, org.springframework.security.web.session.SessionManagementFilter@4addfb95, org.springframework.security.web.access.ExceptionTranslationFilter@70376c6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b158e16]
+2021-11-17 09:39:50.632  INFO [main] ? [] [] Starting ProtocolHandler ["http-nio-8886"]
+2021-11-17 09:39:50.656  INFO [main] ? [] [] Tomcat started on port(s): 8886 (http) with context path ''
+2021-11-17 09:39:50.887  INFO [main] ? [] [] Started PortalLoginApplication in 5.596 seconds (JVM running for 6.371)
+2021-11-17 09:40:43.105  INFO [http-nio-8886-exec-2] ? [] [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-17 09:40:43.106  INFO [http-nio-8886-exec-2] ? [] [] Initializing Servlet 'dispatcherServlet'
+2021-11-17 09:40:43.108  INFO [http-nio-8886-exec-2] ? [] [] Completed initialization in 2 ms
+2021-11-17 09:40:44.593  INFO [http-nio-8886-exec-2] ? [] [] Set redis success : {account=J1040083, token=eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyTmFtZSI6IkoxMDQwMDgzIiwiZXhwIjoxNjM3NzE4MDQzLCJ1c2VyaWQiOiIxMjMxMjM0MyJ9.rSOPFpfcVkCVjK8J3qKacdqPghKWwuoNCyDSEEb6b-tavo_hJtVY1PXvKU8l_FjF2vre1jR8lfMTPajM-GdU-g}
+2021-11-17 09:40:57.936  INFO [SpringApplicationShutdownHook] ? [] [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-17 09:40:57.939  INFO [SpringApplicationShutdownHook] ? [] [] HikariPool-1 - Shutdown initiated...
+2021-11-17 09:40:57.958  INFO [SpringApplicationShutdownHook] ? [] [] HikariPool-1 - Shutdown completed.
+2021-11-17 10:13:17.243  INFO [background-preinit] ? [] [] HV000001: Hibernate Validator 6.2.0.Final
+2021-11-17 10:13:17.286  INFO [main] ? [] [] Starting PortalLoginApplication using Java 11.0.12 on WongdeMacBook-Pro.local with PID 90151 (/Users/wongrainie/Project/springboot/portalLogin/target/classes started by wongrainie in /Users/wongrainie/Project/springboot/portalLogin)
+2021-11-17 10:13:17.291  INFO [main] ? [] [] The following profiles are active: dev
+2021-11-17 10:13:18.366  INFO [main] ? [] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-17 10:13:18.368  INFO [main] ? [] [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-17 10:13:18.525  INFO [main] ? [] [] Finished Spring Data repository scanning in 149 ms. Found 3 JPA repository interfaces.
+2021-11-17 10:13:18.542  INFO [main] ? [] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-17 10:13:18.543  INFO [main] ? [] [] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-17 10:13:18.560  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.HREmpRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-17 10:13:18.563  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.PTCodeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-17 10:13:18.564  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.PTSysRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-17 10:13:18.565  INFO [main] ? [] [] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-11-17 10:13:18.898  INFO [main] ? [] [] Post-processing PropertySource instances
+2021-11-17 10:13:18.943  INFO [main] ? [] [] Converting PropertySource com.tssco.portalLogin.DecryptInitializer [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 10:13:18.962  INFO [main] ? [] [] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-11-17 10:13:18.963  INFO [main] ? [] [] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-11-17 10:13:18.963  INFO [main] ? [] [] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-11-17 10:13:18.964  INFO [main] ? [] [] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 10:13:18.964  INFO [main] ? [] [] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-11-17 10:13:18.965  INFO [main] ? [] [] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-11-17 10:13:18.965  INFO [main] ? [] [] Converting PropertySource Config resource 'class path resource [application-dev.yaml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 10:13:18.965  INFO [main] ? [] [] Converting PropertySource Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 10:13:19.006  INFO [main] ? [] [] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-11-17 10:13:19.329  INFO [main] ? [] [] Tomcat initialized with port(s): 8886 (http)
+2021-11-17 10:13:19.339  INFO [main] ? [] [] Initializing ProtocolHandler ["http-nio-8886"]
+2021-11-17 10:13:19.340  INFO [main] ? [] [] Starting service [Tomcat]
+2021-11-17 10:13:19.341  INFO [main] ? [] [] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-17 10:13:19.455  INFO [main] ? [] [] Initializing Spring embedded WebApplicationContext
+2021-11-17 10:13:19.455  INFO [main] ? [] [] Root WebApplicationContext: initialization completed in 2119 ms
+2021-11-17 10:13:19.509  INFO [main] ? [] [] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-11-17 10:13:19.513  INFO [main] ? [] [] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-11-17 10:13:19.604  INFO [main] ? [] [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-17 10:13:19.645  INFO [main] ? [] [] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-17 10:13:19.750  INFO [main] ? [] [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-17 10:13:19.838  INFO [main] ? [] [] HikariPool-1 - Starting...
+2021-11-17 10:13:20.276  INFO [main] ? [] [] HikariPool-1 - Start completed.
+2021-11-17 10:13:20.291  INFO [main] ? [] [] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-17 10:13:21.029  INFO [main] ? [] [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-17 10:13:21.039  INFO [main] ? [] [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-17 10:13:21.102  WARN [main] ? [] [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-17 10:13:22.249  INFO [main] ? [] [] 
+
+Using generated security password: 712f8e4b-67c2-45e4-bbec-74b1781b9a85
+
+2021-11-17 10:13:22.359  INFO [main] ? [] [] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@41c7ef69, org.springframework.security.web.context.SecurityContextPersistenceFilter@36e6e59f, org.springframework.security.web.header.HeaderWriterFilter@34dc40d5, org.springframework.security.web.authentication.logout.LogoutFilter@2cf29dce, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3a892b9f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a2ce458, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15e86d24, org.springframework.security.web.session.SessionManagementFilter@61a7930e, org.springframework.security.web.access.ExceptionTranslationFilter@2d3bb293, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@43815bc]
+2021-11-17 10:13:22.889  INFO [main] ? [] [] Starting ProtocolHandler ["http-nio-8886"]
+2021-11-17 10:13:22.914  INFO [main] ? [] [] Tomcat started on port(s): 8886 (http) with context path ''
+2021-11-17 10:13:23.168  INFO [main] ? [] [] Started PortalLoginApplication in 6.38 seconds (JVM running for 7.169)
+2021-11-17 10:13:26.485  INFO [http-nio-8886-exec-1] ? [] [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-17 10:13:26.486  INFO [http-nio-8886-exec-1] ? [] [] Initializing Servlet 'dispatcherServlet'
+2021-11-17 10:13:26.489  INFO [http-nio-8886-exec-1] ? [] [] Completed initialization in 3 ms
+2021-11-17 10:13:26.733  WARN [http-nio-8886-exec-1] ? [] [] Incorrect account or password
+2021-11-17 10:13:26.734  WARN [http-nio-8886-exec-1] ? [] [] Incorrect account or password
+2021-11-17 10:16:09.110  WARN [http-nio-8886-exec-3] ? [] [] Incorrect account or password
+2021-11-17 10:16:09.111  WARN [http-nio-8886-exec-3] ? [] [] Incorrect account or password
+2021-11-17 10:17:01.826  WARN [http-nio-8886-exec-5] ? [] [] Incorrect account or password
+2021-11-17 10:17:01.827  WARN [http-nio-8886-exec-5] ? [] [] Incorrect account or password
+2021-11-17 10:17:14.146  INFO [http-nio-8886-exec-7] ? [] [] Set redis success : {account=J1040083, token=eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyTmFtZSI6IkoxMDQwMDgzIiwiZXhwIjoxNjM3NzIwMjMzLCJ1c2VyaWQiOiIxMjMxMjM0MyJ9.SDFViCwwqooTaSzQdWvwoH0HZ2kibo3XfmQhx6PGqRHVKgCq-Qn51-Jh_-DuggLOLlijnsNJS0jNMtzhVLNmyw}
+2021-11-17 10:18:17.772  WARN [http-nio-8886-exec-10] ? [] [] Incorrect account or password
+2021-11-17 10:18:17.773  WARN [http-nio-8886-exec-10] ? [] [] Incorrect account or password
+2021-11-17 10:19:12.374  INFO [SpringApplicationShutdownHook] ? [] [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-17 10:19:12.377  INFO [SpringApplicationShutdownHook] ? [] [] HikariPool-1 - Shutdown initiated...
+2021-11-17 10:19:12.394  INFO [SpringApplicationShutdownHook] ? [] [] HikariPool-1 - Shutdown completed.
+2021-11-17 10:19:43.482  INFO [background-preinit] ? [] [] HV000001: Hibernate Validator 6.2.0.Final
+2021-11-17 10:19:43.520  INFO [main] ? [] [] Starting PortalLoginApplication using Java 11.0.12 on WongdeMacBook-Pro.local with PID 90398 (/Users/wongrainie/Project/springboot/portalLogin/target/classes started by wongrainie in /Users/wongrainie/Project/springboot/portalLogin)
+2021-11-17 10:19:43.524  INFO [main] ? [] [] The following profiles are active: dev
+2021-11-17 10:19:44.499  INFO [main] ? [] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-17 10:19:44.503  INFO [main] ? [] [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-17 10:19:44.691  INFO [main] ? [] [] Finished Spring Data repository scanning in 181 ms. Found 3 JPA repository interfaces.
+2021-11-17 10:19:44.709  INFO [main] ? [] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-17 10:19:44.711  INFO [main] ? [] [] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-17 10:19:44.726  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.HREmpRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-17 10:19:44.729  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.PTCodeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-17 10:19:44.730  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.PTSysRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-17 10:19:44.730  INFO [main] ? [] [] Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-11-17 10:19:45.021  INFO [main] ? [] [] Post-processing PropertySource instances
+2021-11-17 10:19:45.065  INFO [main] ? [] [] Converting PropertySource com.tssco.portalLogin.DecryptInitializer [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 10:19:45.087  INFO [main] ? [] [] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-11-17 10:19:45.087  INFO [main] ? [] [] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-11-17 10:19:45.088  INFO [main] ? [] [] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-11-17 10:19:45.088  INFO [main] ? [] [] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 10:19:45.089  INFO [main] ? [] [] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-11-17 10:19:45.089  INFO [main] ? [] [] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-11-17 10:19:45.090  INFO [main] ? [] [] Converting PropertySource Config resource 'class path resource [application-dev.yaml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 10:19:45.090  INFO [main] ? [] [] Converting PropertySource Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 10:19:45.130  INFO [main] ? [] [] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-11-17 10:19:45.444  INFO [main] ? [] [] Tomcat initialized with port(s): 8886 (http)
+2021-11-17 10:19:45.453  INFO [main] ? [] [] Initializing ProtocolHandler ["http-nio-8886"]
+2021-11-17 10:19:45.454  INFO [main] ? [] [] Starting service [Tomcat]
+2021-11-17 10:19:45.455  INFO [main] ? [] [] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-17 10:19:45.534  INFO [main] ? [] [] Initializing Spring embedded WebApplicationContext
+2021-11-17 10:19:45.535  INFO [main] ? [] [] Root WebApplicationContext: initialization completed in 1961 ms
+2021-11-17 10:19:45.586  INFO [main] ? [] [] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-11-17 10:19:45.589  INFO [main] ? [] [] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-11-17 10:19:45.681  INFO [main] ? [] [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-17 10:19:45.722  INFO [main] ? [] [] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-17 10:19:45.827  INFO [main] ? [] [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-17 10:19:45.916  INFO [main] ? [] [] HikariPool-1 - Starting...
+2021-11-17 10:19:46.325  INFO [main] ? [] [] HikariPool-1 - Start completed.
+2021-11-17 10:19:46.338  INFO [main] ? [] [] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-17 10:19:47.045  INFO [main] ? [] [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-17 10:19:47.054  INFO [main] ? [] [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-17 10:19:47.103  WARN [main] ? [] [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-17 10:19:48.055  INFO [main] ? [] [] 
+
+Using generated security password: 901d61a7-fd8f-4cbe-b221-0f85cab8acaf
+
+2021-11-17 10:19:48.146  INFO [main] ? [] [] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e774194, org.springframework.security.web.context.SecurityContextPersistenceFilter@11f81488, org.springframework.security.web.header.HeaderWriterFilter@4addfb95, org.springframework.security.web.authentication.logout.LogoutFilter@245a90b1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@60eacbbf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f6921b7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ebcf6c0, org.springframework.security.web.session.SessionManagementFilter@4248608d, org.springframework.security.web.access.ExceptionTranslationFilter@55c75b72, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2296926d]
+2021-11-17 10:19:48.558  INFO [main] ? [] [] Starting ProtocolHandler ["http-nio-8886"]
+2021-11-17 10:19:48.581  INFO [main] ? [] [] Tomcat started on port(s): 8886 (http) with context path ''
+2021-11-17 10:19:48.801  INFO [main] ? [] [] Started PortalLoginApplication in 5.733 seconds (JVM running for 6.496)
+2021-11-17 10:23:39.952  INFO [http-nio-8886-exec-1] ? [] [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-17 10:23:39.953  INFO [http-nio-8886-exec-1] ? [] [] Initializing Servlet 'dispatcherServlet'
+2021-11-17 10:23:39.957  INFO [http-nio-8886-exec-1] ? [] [] Completed initialization in 4 ms
+2021-11-17 10:23:40.197  WARN [http-nio-8886-exec-1] ? [] [] Incorrect account or password
+2021-11-17 10:23:40.197  WARN [http-nio-8886-exec-1] ? [] [] Incorrect account or password
+2021-11-17 10:24:18.905  INFO [SpringApplicationShutdownHook] ? [] [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-17 10:24:18.907  INFO [SpringApplicationShutdownHook] ? [] [] HikariPool-1 - Shutdown initiated...
+2021-11-17 10:24:18.923  INFO [SpringApplicationShutdownHook] ? [] [] HikariPool-1 - Shutdown completed.
+2021-11-17 10:24:22.839  INFO [background-preinit] ? [] [] HV000001: Hibernate Validator 6.2.0.Final
+2021-11-17 10:24:22.877  INFO [main] ? [] [] Starting PortalLoginApplication using Java 11.0.12 on WongdeMacBook-Pro.local with PID 90497 (/Users/wongrainie/Project/springboot/portalLogin/target/classes started by wongrainie in /Users/wongrainie/Project/springboot/portalLogin)
+2021-11-17 10:24:22.882  INFO [main] ? [] [] The following profiles are active: dev
+2021-11-17 10:24:23.988  INFO [main] ? [] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-17 10:24:23.991  INFO [main] ? [] [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-17 10:24:24.176  INFO [main] ? [] [] Finished Spring Data repository scanning in 176 ms. Found 3 JPA repository interfaces.
+2021-11-17 10:24:24.192  INFO [main] ? [] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-17 10:24:24.194  INFO [main] ? [] [] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-17 10:24:24.209  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.HREmpRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-17 10:24:24.211  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.PTCodeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-17 10:24:24.212  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.PTSysRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-17 10:24:24.213  INFO [main] ? [] [] Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-11-17 10:24:24.525  INFO [main] ? [] [] Post-processing PropertySource instances
+2021-11-17 10:24:24.571  INFO [main] ? [] [] Converting PropertySource com.tssco.portalLogin.DecryptInitializer [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 10:24:24.594  INFO [main] ? [] [] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-11-17 10:24:24.594  INFO [main] ? [] [] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-11-17 10:24:24.594  INFO [main] ? [] [] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-11-17 10:24:24.595  INFO [main] ? [] [] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 10:24:24.595  INFO [main] ? [] [] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-11-17 10:24:24.596  INFO [main] ? [] [] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-11-17 10:24:24.596  INFO [main] ? [] [] Converting PropertySource Config resource 'class path resource [application-dev.yaml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 10:24:24.596  INFO [main] ? [] [] Converting PropertySource Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 10:24:24.640  INFO [main] ? [] [] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-11-17 10:24:24.967  INFO [main] ? [] [] Tomcat initialized with port(s): 8886 (http)
+2021-11-17 10:24:24.978  INFO [main] ? [] [] Initializing ProtocolHandler ["http-nio-8886"]
+2021-11-17 10:24:24.979  INFO [main] ? [] [] Starting service [Tomcat]
+2021-11-17 10:24:24.980  INFO [main] ? [] [] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-17 10:24:25.088  INFO [main] ? [] [] Initializing Spring embedded WebApplicationContext
+2021-11-17 10:24:25.088  INFO [main] ? [] [] Root WebApplicationContext: initialization completed in 2155 ms
+2021-11-17 10:24:25.158  INFO [main] ? [] [] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-11-17 10:24:25.161  INFO [main] ? [] [] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-11-17 10:24:25.255  INFO [main] ? [] [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-17 10:24:25.299  INFO [main] ? [] [] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-17 10:24:25.418  INFO [main] ? [] [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-17 10:24:25.515  INFO [main] ? [] [] HikariPool-1 - Starting...
+2021-11-17 10:24:25.929  INFO [main] ? [] [] HikariPool-1 - Start completed.
+2021-11-17 10:24:25.945  INFO [main] ? [] [] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-17 10:24:26.769  INFO [main] ? [] [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-17 10:24:26.778  INFO [main] ? [] [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-17 10:24:26.843  WARN [main] ? [] [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-17 10:24:27.819  INFO [main] ? [] [] 
+
+Using generated security password: 00d252b2-0ff4-46ef-ae15-ac3e1dfae4bc
+
+2021-11-17 10:24:27.925  INFO [main] ? [] [] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e774194, org.springframework.security.web.context.SecurityContextPersistenceFilter@4248608d, org.springframework.security.web.header.HeaderWriterFilter@55c75b72, org.springframework.security.web.authentication.logout.LogoutFilter@245a90b1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@11f81488, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35cc5b75, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ebcf6c0, org.springframework.security.web.session.SessionManagementFilter@4addfb95, org.springframework.security.web.access.ExceptionTranslationFilter@70376c6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2296926d]
+2021-11-17 10:24:28.410  INFO [main] ? [] [] Starting ProtocolHandler ["http-nio-8886"]
+2021-11-17 10:24:28.436  INFO [main] ? [] [] Tomcat started on port(s): 8886 (http) with context path ''
+2021-11-17 10:24:28.677  INFO [main] ? [] [] Started PortalLoginApplication in 6.28 seconds (JVM running for 7.102)
+2021-11-17 10:24:38.413  INFO [http-nio-8886-exec-1] ? [] [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-17 10:24:38.414  INFO [http-nio-8886-exec-1] ? [] [] Initializing Servlet 'dispatcherServlet'
+2021-11-17 10:24:38.417  INFO [http-nio-8886-exec-1] ? [] [] Completed initialization in 3 ms
+2021-11-17 10:24:38.653  WARN [http-nio-8886-exec-1] ? [] [] Incorrect account or password
+2021-11-17 10:24:38.653  WARN [http-nio-8886-exec-1] ? [] [] Incorrect account or password
+2021-11-17 10:25:50.488  WARN [http-nio-8886-exec-3] ? [] [] Incorrect account or password
+2021-11-17 10:25:50.489  WARN [http-nio-8886-exec-3] ? [] [] Incorrect account or password
+2021-11-17 11:05:01.691  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m5s671ms).
+2021-11-17 11:54:15.724  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m43s621ms).
+2021-11-17 12:14:15.177  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m29s378ms).
+2021-11-17 12:28:59.200  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m44s24ms).
+2021-11-17 13:01:59.385  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m184ms).
+2021-11-17 13:03:30.165  WARN [http-nio-8886-exec-5] ? [] [] Incorrect account or password
+2021-11-17 13:03:30.166  WARN [http-nio-8886-exec-5] ? [] [] Incorrect account or password
+2021-11-17 13:03:51.935 ERROR [http-nio-8886-exec-6] ? [] [] Set redis fail : org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 10.41.0.225:30999
+2021-11-17 13:05:35.016  INFO [SpringApplicationShutdownHook] ? [] [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-17 13:05:35.018  INFO [SpringApplicationShutdownHook] ? [] [] HikariPool-1 - Shutdown initiated...
+2021-11-17 13:05:35.033  INFO [SpringApplicationShutdownHook] ? [] [] HikariPool-1 - Shutdown completed.
+2021-11-17 13:05:41.699  INFO [background-preinit] ? [] [] HV000001: Hibernate Validator 6.2.0.Final
+2021-11-17 13:05:41.738  INFO [main] ? [] [] Starting PortalLoginApplication using Java 11.0.12 on WongdeMacBook-Pro.local with PID 91685 (/Users/wongrainie/Project/springboot/portalLogin/target/classes started by wongrainie in /Users/wongrainie/Project/springboot/portalLogin)
+2021-11-17 13:05:41.743  INFO [main] ? [] [] The following profiles are active: dev
+2021-11-17 13:05:42.779  INFO [main] ? [] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-17 13:05:42.782  INFO [main] ? [] [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-17 13:05:42.956  INFO [main] ? [] [] Finished Spring Data repository scanning in 166 ms. Found 3 JPA repository interfaces.
+2021-11-17 13:05:42.973  INFO [main] ? [] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-17 13:05:42.974  INFO [main] ? [] [] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-17 13:05:42.990  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.HREmpRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-17 13:05:42.992  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.PTCodeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-17 13:05:42.993  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.PTSysRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-17 13:05:42.994  INFO [main] ? [] [] Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-11-17 13:05:43.326  INFO [main] ? [] [] Post-processing PropertySource instances
+2021-11-17 13:05:43.374  INFO [main] ? [] [] Converting PropertySource com.tssco.portalLogin.DecryptInitializer [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 13:05:43.397  INFO [main] ? [] [] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-11-17 13:05:43.397  INFO [main] ? [] [] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-11-17 13:05:43.398  INFO [main] ? [] [] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-11-17 13:05:43.398  INFO [main] ? [] [] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 13:05:43.399  INFO [main] ? [] [] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-11-17 13:05:43.399  INFO [main] ? [] [] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-11-17 13:05:43.400  INFO [main] ? [] [] Converting PropertySource Config resource 'class path resource [application-dev.yaml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 13:05:43.400  INFO [main] ? [] [] Converting PropertySource Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 13:05:43.443  INFO [main] ? [] [] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-11-17 13:05:43.778  INFO [main] ? [] [] Tomcat initialized with port(s): 8886 (http)
+2021-11-17 13:05:43.788  INFO [main] ? [] [] Initializing ProtocolHandler ["http-nio-8886"]
+2021-11-17 13:05:43.788  INFO [main] ? [] [] Starting service [Tomcat]
+2021-11-17 13:05:43.789  INFO [main] ? [] [] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-17 13:05:43.874  INFO [main] ? [] [] Initializing Spring embedded WebApplicationContext
+2021-11-17 13:05:43.874  INFO [main] ? [] [] Root WebApplicationContext: initialization completed in 2081 ms
+2021-11-17 13:05:43.930  INFO [main] ? [] [] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-11-17 13:05:43.934  INFO [main] ? [] [] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-11-17 13:05:44.030  INFO [main] ? [] [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-17 13:05:44.077  INFO [main] ? [] [] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-17 13:05:44.189  INFO [main] ? [] [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-17 13:05:44.287  INFO [main] ? [] [] HikariPool-1 - Starting...
+2021-11-17 13:05:44.692  INFO [main] ? [] [] HikariPool-1 - Start completed.
+2021-11-17 13:05:44.708  INFO [main] ? [] [] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-17 13:05:45.482  INFO [main] ? [] [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-17 13:05:45.491  INFO [main] ? [] [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-17 13:05:45.547  WARN [main] ? [] [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-17 13:05:46.567  INFO [main] ? [] [] 
+
+Using generated security password: 5499e21e-a0f1-4b97-ae3d-d820f19d469e
+
+2021-11-17 13:05:46.663  INFO [main] ? [] [] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e774194, org.springframework.security.web.context.SecurityContextPersistenceFilter@11f81488, org.springframework.security.web.header.HeaderWriterFilter@4addfb95, org.springframework.security.web.authentication.logout.LogoutFilter@245a90b1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@60eacbbf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f6921b7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ebcf6c0, org.springframework.security.web.session.SessionManagementFilter@4248608d, org.springframework.security.web.access.ExceptionTranslationFilter@55c75b72, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2296926d]
+2021-11-17 13:05:47.089  INFO [main] ? [] [] Starting ProtocolHandler ["http-nio-8886"]
+2021-11-17 13:05:47.114  INFO [main] ? [] [] Tomcat started on port(s): 8886 (http) with context path ''
+2021-11-17 13:05:47.360  INFO [main] ? [] [] Started PortalLoginApplication in 6.092 seconds (JVM running for 7.061)
+2021-11-17 13:07:03.887  INFO [http-nio-8886-exec-1] ? [] [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-17 13:07:03.889  INFO [http-nio-8886-exec-1] ? [] [] Initializing Servlet 'dispatcherServlet'
+2021-11-17 13:07:03.892  INFO [http-nio-8886-exec-1] ? [] [] Completed initialization in 3 ms
+2021-11-17 13:07:14.600 ERROR [http-nio-8886-exec-1] ? [] [] Set redis fail : org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 10.41.0.225:30999
+2021-11-17 13:41:31.896 ERROR [http-nio-8886-exec-3] ? [] [] Set redis fail : org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 10.41.0.225:30999
+2021-11-17 13:42:12.678 ERROR [http-nio-8886-exec-5] ? [] [] Set redis fail : org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 10.41.0.225:30999
+2021-11-17 13:42:39.649  INFO [http-nio-8886-exec-6] ? [] [] Set redis success : {account=J1040083, token=eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyTmFtZSI6IkoxMDQwMDgzIiwiZXhwIjoxNjM3NzMyNTU5LCJ1c2VyaWQiOiIxMjMxMjM0MyJ9.5ovAXkLBpntTbhgc4GGX5nQg-TAbnykypgi4NrtEEMFRgSyXTYUjQIudS7tXHuXrfq82xqw-YmxholYq_P-uJA}
+2021-11-17 13:45:11.393  INFO [http-nio-8886-exec-8] ? [] [] Set redis success : {account=J1040083, token=eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyTmFtZSI6IkoxMDQwMDgzIiwiZXhwIjoxNjM3NzMyNzExLCJ1c2VyaWQiOiIxMjMxMjM0MyJ9.Uj_yJziJRRHellDukuPMRAdz8_NK7vwyIa4goT-g17XoDcy7j8Ig-Fp5FLozdEFX3CYnZyrBcbnz97vLAocf4Q}
+2021-11-17 13:53:12.909  INFO [http-nio-8886-exec-10] ? [] [] Set redis success : {account=J1040083, token=eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyTmFtZSI6IkoxMDQwMDgzIiwiZXhwIjoxNjM3NzMzMTkyLCJ1c2VyaWQiOiIxMjMxMjM0MyJ9.vhUrMm4ki8R04_S-7PocLRpXUkHLKXKmurE-Nny8lD8k7nA7l1q05IbBGlkMX-PKeldgc7lYK52goR9U5hve_Q}
+2021-11-17 13:55:40.935  INFO [SpringApplicationShutdownHook] ? [] [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-17 13:55:40.940  INFO [SpringApplicationShutdownHook] ? [] [] HikariPool-1 - Shutdown initiated...
+2021-11-17 13:55:40.949  INFO [SpringApplicationShutdownHook] ? [] [] HikariPool-1 - Shutdown completed.
+2021-11-17 13:55:46.103  INFO [background-preinit] ? [] [] HV000001: Hibernate Validator 6.2.0.Final
+2021-11-17 13:55:46.146  INFO [main] ? [] [] Starting PortalLoginApplication using Java 11.0.12 on WongdeMacBook-Pro.local with PID 93059 (/Users/wongrainie/Project/springboot/portalLogin/target/classes started by wongrainie in /Users/wongrainie/Project/springboot/portalLogin)
+2021-11-17 13:55:46.152  INFO [main] ? [] [] The following profiles are active: dev
+2021-11-17 13:55:47.379  INFO [main] ? [] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-17 13:55:47.382  INFO [main] ? [] [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-17 13:55:47.598  INFO [main] ? [] [] Finished Spring Data repository scanning in 206 ms. Found 3 JPA repository interfaces.
+2021-11-17 13:55:47.614  INFO [main] ? [] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-17 13:55:47.616  INFO [main] ? [] [] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-17 13:55:47.631  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.HREmpRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-17 13:55:47.633  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.PTCodeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-17 13:55:47.634  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.PTSysRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-17 13:55:47.635  INFO [main] ? [] [] Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-11-17 13:55:47.945  INFO [main] ? [] [] Post-processing PropertySource instances
+2021-11-17 13:55:47.992  INFO [main] ? [] [] Converting PropertySource com.tssco.portalLogin.DecryptInitializer [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 13:55:48.016  INFO [main] ? [] [] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-11-17 13:55:48.017  INFO [main] ? [] [] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-11-17 13:55:48.017  INFO [main] ? [] [] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-11-17 13:55:48.018  INFO [main] ? [] [] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 13:55:48.018  INFO [main] ? [] [] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-11-17 13:55:48.019  INFO [main] ? [] [] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-11-17 13:55:48.019  INFO [main] ? [] [] Converting PropertySource Config resource 'class path resource [application-dev.yaml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 13:55:48.020  INFO [main] ? [] [] Converting PropertySource Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 13:55:48.067  INFO [main] ? [] [] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-11-17 13:55:48.444  INFO [main] ? [] [] Tomcat initialized with port(s): 8886 (http)
+2021-11-17 13:55:48.454  INFO [main] ? [] [] Initializing ProtocolHandler ["http-nio-8886"]
+2021-11-17 13:55:48.455  INFO [main] ? [] [] Starting service [Tomcat]
+2021-11-17 13:55:48.456  INFO [main] ? [] [] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-17 13:55:48.570  INFO [main] ? [] [] Initializing Spring embedded WebApplicationContext
+2021-11-17 13:55:48.570  INFO [main] ? [] [] Root WebApplicationContext: initialization completed in 2334 ms
+2021-11-17 13:55:48.634  INFO [main] ? [] [] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-11-17 13:55:48.638  INFO [main] ? [] [] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-11-17 13:55:48.741  INFO [main] ? [] [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-17 13:55:48.792  INFO [main] ? [] [] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-17 13:55:48.922  INFO [main] ? [] [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-17 13:55:49.084  INFO [main] ? [] [] HikariPool-1 - Starting...
+2021-11-17 13:55:49.742  INFO [main] ? [] [] HikariPool-1 - Start completed.
+2021-11-17 13:55:49.766  INFO [main] ? [] [] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-17 13:55:51.134  INFO [main] ? [] [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-17 13:55:51.145  INFO [main] ? [] [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-17 13:55:51.230  WARN [main] ? [] [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-17 13:55:52.552  INFO [main] ? [] [] 
+
+Using generated security password: 4c4c08c2-f373-4376-91c1-b3a3b92a50b5
+
+2021-11-17 13:55:52.670  INFO [main] ? [] [] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@41c7ef69, org.springframework.security.web.context.SecurityContextPersistenceFilter@36e6e59f, org.springframework.security.web.header.HeaderWriterFilter@34dc40d5, org.springframework.security.web.authentication.logout.LogoutFilter@2cf29dce, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3a892b9f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a2ce458, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15e86d24, org.springframework.security.web.session.SessionManagementFilter@61a7930e, org.springframework.security.web.access.ExceptionTranslationFilter@2d3bb293, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@43815bc]
+2021-11-17 13:55:53.258  INFO [main] ? [] [] Starting ProtocolHandler ["http-nio-8886"]
+2021-11-17 13:55:53.285  INFO [main] ? [] [] Tomcat started on port(s): 8886 (http) with context path ''
+2021-11-17 13:55:53.638  INFO [main] ? [] [] Started PortalLoginApplication in 8.037 seconds (JVM running for 9.137)
+2021-11-17 13:55:58.181  INFO [http-nio-8886-exec-2] ? [] [] Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030xf60xd90xb0]0xfa0xe80xb20xdb7|qI0xf60xb0K0x9ctt$0x9b+0xe40x1d0x0b`0xdf00xf8/0xac0xcb7 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+2021-11-17 13:55:58.181  INFO [http-nio-8886-exec-3] ? [] [] Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030x0aH0xcbY0xf60x08Nq0xefF|0xd80x0aU0x7f^0x840xb2q0xef0xee0xa20xa60xb90xd7l0xb50xdd0xc00xab0xcaG ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+2021-11-17 13:55:58.181  INFO [http-nio-8886-exec-1] ? [] [] Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030xa10xcc>v)0x890x1d$0x140xce80xbf0xc10xf00xa7r0xff0xcf0xfa0xd30xdd0xdf0xaf0xbf0x83 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+2021-11-17 13:56:05.337  INFO [background-preinit] ? [] [] HV000001: Hibernate Validator 6.2.0.Final
+2021-11-17 13:56:05.377  INFO [main] ? [] [] Starting PortalLoginApplication using Java 11.0.12 on WongdeMacBook-Pro.local with PID 93076 (/Users/wongrainie/Project/springboot/portalLogin/target/classes started by wongrainie in /Users/wongrainie/Project/springboot/portalLogin)
+2021-11-17 13:56:05.383  INFO [main] ? [] [] The following profiles are active: dev
+2021-11-17 13:56:06.763  INFO [main] ? [] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-17 13:56:06.768  INFO [main] ? [] [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-17 13:56:06.985  INFO [main] ? [] [] Finished Spring Data repository scanning in 206 ms. Found 3 JPA repository interfaces.
+2021-11-17 13:56:07.001  INFO [main] ? [] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-17 13:56:07.003  INFO [main] ? [] [] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-17 13:56:07.018  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.HREmpRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-17 13:56:07.020  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.PTCodeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-17 13:56:07.021  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.PTSysRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-17 13:56:07.022  INFO [main] ? [] [] Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-11-17 13:56:07.434  INFO [main] ? [] [] Post-processing PropertySource instances
+2021-11-17 13:56:07.499  INFO [main] ? [] [] Converting PropertySource com.tssco.portalLogin.DecryptInitializer [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 13:56:07.527  INFO [main] ? [] [] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-11-17 13:56:07.528  INFO [main] ? [] [] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-11-17 13:56:07.528  INFO [main] ? [] [] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-11-17 13:56:07.528  INFO [main] ? [] [] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 13:56:07.529  INFO [main] ? [] [] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-11-17 13:56:07.530  INFO [main] ? [] [] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-11-17 13:56:07.530  INFO [main] ? [] [] Converting PropertySource Config resource 'class path resource [application-dev.yaml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 13:56:07.531  INFO [main] ? [] [] Converting PropertySource Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-17 13:56:07.591  INFO [main] ? [] [] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-11-17 13:56:08.000  INFO [main] ? [] [] Tomcat initialized with port(s): 8886 (http)
+2021-11-17 13:56:08.013  INFO [main] ? [] [] Initializing ProtocolHandler ["http-nio-8886"]
+2021-11-17 13:56:08.013  INFO [main] ? [] [] Starting service [Tomcat]
+2021-11-17 13:56:08.014  INFO [main] ? [] [] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-17 13:56:08.129  INFO [main] ? [] [] Initializing Spring embedded WebApplicationContext
+2021-11-17 13:56:08.129  INFO [main] ? [] [] Root WebApplicationContext: initialization completed in 2693 ms
+2021-11-17 13:56:08.211  INFO [main] ? [] [] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-11-17 13:56:08.216  INFO [main] ? [] [] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-11-17 13:56:08.398  INFO [main] ? [] [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-17 13:56:08.467  INFO [main] ? [] [] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-17 13:56:08.637  INFO [main] ? [] [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-17 13:56:08.768  INFO [main] ? [] [] HikariPool-1 - Starting...
+2021-11-17 13:56:09.235  INFO [main] ? [] [] HikariPool-1 - Start completed.
+2021-11-17 13:56:09.254  INFO [main] ? [] [] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-17 13:56:10.214  INFO [main] ? [] [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-17 13:56:10.223  INFO [main] ? [] [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-17 13:56:10.297  WARN [main] ? [] [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-17 13:56:11.474  INFO [main] ? [] [] 
+
+Using generated security password: 19a562f6-7541-4efb-b3a9-e3cd1d4810cd
+
+2021-11-17 13:56:11.603  INFO [main] ? [] [] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e774194, org.springframework.security.web.context.SecurityContextPersistenceFilter@4248608d, org.springframework.security.web.header.HeaderWriterFilter@55c75b72, org.springframework.security.web.authentication.logout.LogoutFilter@245a90b1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@11f81488, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35cc5b75, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ebcf6c0, org.springframework.security.web.session.SessionManagementFilter@4addfb95, org.springframework.security.web.access.ExceptionTranslationFilter@70376c6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2296926d]
+2021-11-17 13:56:12.128  INFO [main] ? [] [] Starting ProtocolHandler ["http-nio-8886"]
+2021-11-17 13:56:12.157  INFO [main] ? [] [] Tomcat started on port(s): 8886 (http) with context path ''
+2021-11-17 13:56:12.463  INFO [main] ? [] [] Started PortalLoginApplication in 7.626 seconds (JVM running for 8.451)
+2021-11-17 13:56:22.891  INFO [http-nio-8886-exec-1] ? [] [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-17 13:56:22.891  INFO [http-nio-8886-exec-1] ? [] [] Initializing Servlet 'dispatcherServlet'
+2021-11-17 13:56:22.893  INFO [http-nio-8886-exec-1] ? [] [] Completed initialization in 2 ms
+2021-11-17 13:57:22.919  INFO [http-nio-8886-exec-4] ? [] [] Set redis success : {account=J1040083, token=eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyTmFtZSI6IkoxMDQwMDgzIiwiZXhwIjoxNjM3NzMzNDQyLCJ1c2VyaWQiOiIxMjMxMjM0MyJ9.vD4SRTdmGoNYWsuKP1jrP7LUQysOPLhUpO89rtvh8FhoDnycKpQ-mFbqIsUN5jbA0JlhZyP_nwJwobZo0Jzzsw}
+2021-11-17 14:15:19.496 ERROR [http-nio-8886-exec-7] ? [] [] Set redis fail : org.springframework.data.redis.RedisSystemException: Redis exception; nested exception is io.lettuce.core.RedisException: java.io.IOException: Connection reset by peer
+2021-11-17 14:15:19.557  INFO [lettuce-eventExecutorLoop-1-4] ? [] [] Reconnecting, last destination was /10.41.0.225:30999
+2021-11-17 14:15:19.702  INFO [lettuce-nioEventLoop-4-2] ? [] [] Reconnected to 10.41.0.225:30999
+2021-11-17 14:18:38.319  INFO [SpringApplicationShutdownHook] ? [] [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-17 14:18:38.324  INFO [SpringApplicationShutdownHook] ? [] [] HikariPool-1 - Shutdown initiated...
+2021-11-17 14:18:38.342  INFO [SpringApplicationShutdownHook] ? [] [] HikariPool-1 - Shutdown completed.
+2021-11-19 14:30:57.400  INFO [main] ? [] [] Starting PortalLoginApplication using Java 11.0.12 on WongdeMacBook-Pro.local with PID 22612 (/Users/wongrainie/Project/springboot/portalLogin/target/classes started by wongrainie in /Users/wongrainie/Project/springboot/portalLogin)
+2021-11-19 14:30:57.409  INFO [main] ? [] [] The following profiles are active: dev
+2021-11-19 14:30:58.804  INFO [main] ? [] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-19 14:30:58.807  INFO [main] ? [] [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-19 14:30:59.040  INFO [main] ? [] [] Finished Spring Data repository scanning in 221 ms. Found 3 JPA repository interfaces.
+2021-11-19 14:30:59.058  INFO [main] ? [] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-19 14:30:59.059  INFO [main] ? [] [] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-19 14:30:59.076  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.HREmpRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-19 14:30:59.078  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.PTCodeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-19 14:30:59.079  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.PTSysRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-19 14:30:59.080  INFO [main] ? [] [] Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-11-19 14:30:59.419  INFO [main] ? [] [] Post-processing PropertySource instances
+2021-11-19 14:30:59.470  INFO [main] ? [] [] Converting PropertySource com.tssco.portalLogin.DecryptInitializer [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-19 14:30:59.495  INFO [main] ? [] [] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-11-19 14:30:59.496  INFO [main] ? [] [] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-11-19 14:30:59.496  INFO [main] ? [] [] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-11-19 14:30:59.497  INFO [main] ? [] [] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-19 14:30:59.498  INFO [main] ? [] [] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-11-19 14:30:59.498  INFO [main] ? [] [] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-11-19 14:30:59.498  INFO [main] ? [] [] Converting PropertySource Config resource 'class path resource [application-dev.yaml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-19 14:30:59.499  INFO [main] ? [] [] Converting PropertySource Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-19 14:30:59.546  INFO [main] ? [] [] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-11-19 14:30:59.933  INFO [main] ? [] [] Tomcat initialized with port(s): 8886 (http)
+2021-11-19 14:30:59.944  INFO [main] ? [] [] Initializing ProtocolHandler ["http-nio-8886"]
+2021-11-19 14:30:59.945  INFO [main] ? [] [] Starting service [Tomcat]
+2021-11-19 14:30:59.945  INFO [main] ? [] [] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-19 14:31:00.054  INFO [main] ? [] [] Initializing Spring embedded WebApplicationContext
+2021-11-19 14:31:00.054  INFO [main] ? [] [] Root WebApplicationContext: initialization completed in 2557 ms
+2021-11-19 14:31:00.132  INFO [main] ? [] [] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-11-19 14:31:00.136  INFO [main] ? [] [] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-11-19 14:31:00.256  INFO [main] ? [] [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-19 14:31:00.311  INFO [main] ? [] [] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-19 14:31:00.472  INFO [main] ? [] [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-19 14:31:00.586  INFO [main] ? [] [] HikariPool-1 - Starting...
+2021-11-19 14:31:01.035  INFO [main] ? [] [] HikariPool-1 - Start completed.
+2021-11-19 14:31:01.055  INFO [main] ? [] [] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-19 14:31:02.038  INFO [main] ? [] [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-19 14:31:02.047  INFO [main] ? [] [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-19 14:31:02.119  WARN [main] ? [] [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-19 14:31:03.297  INFO [main] ? [] [] 
+
+Using generated security password: 9004144a-7201-4224-8831-a1d8263bc34f
+
+2021-11-19 14:31:03.410  INFO [main] ? [] [] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@68ad030d, org.springframework.security.web.context.SecurityContextPersistenceFilter@7b6d88d1, org.springframework.security.web.header.HeaderWriterFilter@1e95fc31, org.springframework.security.web.authentication.logout.LogoutFilter@71904ea8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@38159192, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@567412db, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@71de943f, org.springframework.security.web.session.SessionManagementFilter@419dbd6d, org.springframework.security.web.access.ExceptionTranslationFilter@5f84e764, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@407956a5]
+2021-11-19 14:31:03.936  INFO [main] ? [] [] Starting ProtocolHandler ["http-nio-8886"]
+2021-11-19 14:31:03.964  INFO [main] ? [] [] Tomcat started on port(s): 8886 (http) with context path ''
+2021-11-19 14:31:04.252  INFO [main] ? [] [] Started PortalLoginApplication in 7.414 seconds (JVM running for 8.496)
+2021-11-19 14:31:47.766  INFO [http-nio-8886-exec-1] ? [] [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-19 14:31:47.766  INFO [http-nio-8886-exec-1] ? [] [] Initializing Servlet 'dispatcherServlet'
+2021-11-19 14:31:47.769  INFO [http-nio-8886-exec-1] ? [] [] Completed initialization in 2 ms
+2021-11-19 14:31:48.748  INFO [http-nio-8886-exec-1] ? [] [] Set redis success : {account=J1040083, token=eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyTmFtZSI6IkoxMDQwMDgzIiwiZXhwIjoxNjM3OTA4MzA4LCJ1c2VyaWQiOiIxMjMxMjM0MyJ9.IM52zy8f2-n-lKCsJuNQN6k-HuT6qcF8QrzYQX85ww_wrBxProwmgpVL1Y6F7FfA9IfzxyX2htGBDHeN1oq5kA}
+2021-11-19 14:42:09.434  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m38s251ms).
+2021-11-19 14:47:54.586  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m45s78ms).
+2021-11-19 14:54:34.856 ERROR [http-nio-8886-exec-3] ? [] [] Set redis fail : org.springframework.dao.QueryTimeoutException: Redis command timed out; nested exception is io.lettuce.core.RedisCommandTimeoutException: Command timed out after 1 minute(s)
+2021-11-19 14:54:48.616 ERROR [http-nio-8886-exec-4] ? [] [] Set redis fail : org.springframework.dao.QueryTimeoutException: Redis command timed out; nested exception is io.lettuce.core.RedisCommandTimeoutException: Command timed out after 1 minute(s)
+2021-11-19 14:55:04.884  INFO [lettuce-eventExecutorLoop-1-6] ? [] [] Reconnecting, last destination was /10.41.0.225:30999
+2021-11-19 14:55:05.027  INFO [lettuce-nioEventLoop-4-2] ? [] [] Reconnected to 10.41.0.225:30999
+2021-11-19 14:55:05.117  INFO [http-nio-8886-exec-5] ? [] [] Set redis success : {account=J1040083, token=eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyTmFtZSI6IkoxMDQwMDgzIiwiZXhwIjoxNjM3OTA5Njc2LCJ1c2VyaWQiOiIxMjMxMjM0MyJ9.trQ26B2Ibq6lbvmzYdN79hdjSRwO-8CTti_b0UwKpqzZ5HTLhqF047TA8ZY-ZSUtgD6gTqpn7u6kkrUO1VAVrQ}
+2021-11-19 14:55:07.358  INFO [http-nio-8886-exec-8] ? [] [] Set redis success : {account=J1040083, token=eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyTmFtZSI6IkoxMDQwMDgzIiwiZXhwIjoxNjM3OTA5NzA3LCJ1c2VyaWQiOiIxMjMxMjM0MyJ9.fTge7YfaZbK3B8veLWzA0qEUzb1aWIBkZdK8rqWDzs0cVcvDi-H1R4TKNBVKYrxLI3Xjjti6frb7R0roY4sV7w}
+2021-11-19 14:55:10.567  INFO [http-nio-8886-exec-9] ? [] [] Set redis success : {account=J1040083, token=eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyTmFtZSI6IkoxMDQwMDgzIiwiZXhwIjoxNjM3OTA5NzEwLCJ1c2VyaWQiOiIxMjMxMjM0MyJ9.WnvVRrNTFnm1QOb0K9ELRrGrvrjyqIpCbLpni-kDk1VxmlXfgz4kxguX2AStj6bSEdan11o31DO5CwnGZINdlA}
+2021-11-19 14:55:12.830  INFO [http-nio-8886-exec-10] ? [] [] Set redis success : {account=J1040083, token=eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyTmFtZSI6IkoxMDQwMDgzIiwiZXhwIjoxNjM3OTA5NzEyLCJ1c2VyaWQiOiIxMjMxMjM0MyJ9.uObyqAQAzmOYacRTWwvrUEja1Lhs5Phc6PHdMengkB8CBT2cp0OqCUc4u8Fe-TBQKxCXvNum7CSDhx3OCHoa-Q}
+2021-11-19 15:01:05.574  INFO [http-nio-8886-exec-4] ? [] [] Set redis success : {account=J1040083, token=eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyTmFtZSI6IkoxMDQwMDgzIiwiZXhwIjoxNjM3OTEwMDY1LCJ1c2VyaWQiOiIxMjMxMjM0MyJ9.SN6d88qNMVmzDqcHLkH-XA1XDsQAOPaCdJiJakLikPvPe_AzMcgwsTQce5Tib9ubx8rCoBX1tP67ME_ls88W4w}
+2021-11-19 15:02:06.130  INFO [http-nio-8886-exec-7] ? [] [] Set redis success : {account=J1040083, token=eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyTmFtZSI6IkoxMDQwMDgzIiwiZXhwIjoxNjM3OTEwMTI1LCJ1c2VyaWQiOiIxMjMxMjM0MyJ9.3JwQK7xvVgkANP1r4_lZ8XmaO88UJNeldfpXw4rnc_ewf5UxI-p-2lku9X1iP2pSy-lvvx3pUYYm5UfncZAoUA}
+2021-11-19 15:52:50.932  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s963ms).
+2021-11-19 16:17:38.557 ERROR [http-nio-8886-exec-9] ? [] [] Set redis fail : org.springframework.data.redis.RedisSystemException: Redis command interrupted; nested exception is io.lettuce.core.RedisCommandInterruptedException: Command interrupted
+2021-11-19 16:17:38.805  INFO [SpringApplicationShutdownHook] ? [] [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-19 16:17:38.821  INFO [SpringApplicationShutdownHook] ? [] [] HikariPool-1 - Shutdown initiated...
+2021-11-19 16:17:38.839  INFO [SpringApplicationShutdownHook] ? [] [] HikariPool-1 - Shutdown completed.
+2021-11-19 16:17:40.971  INFO [main] ? [] [] Starting PortalLoginApplication using Java 11.0.12 on WongdeMacBook-Pro.local with PID 26573 (/Users/wongrainie/Project/springboot/portalLogin/target/classes started by wongrainie in /Users/wongrainie/Project/springboot/portalLogin)
+2021-11-19 16:17:40.982  INFO [main] ? [] [] The following profiles are active: dev
+2021-11-19 16:17:42.207  INFO [main] ? [] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-19 16:17:42.210  INFO [main] ? [] [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-19 16:17:42.405  INFO [main] ? [] [] Finished Spring Data repository scanning in 185 ms. Found 3 JPA repository interfaces.
+2021-11-19 16:17:42.420  INFO [main] ? [] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-19 16:17:42.422  INFO [main] ? [] [] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-19 16:17:42.436  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.HREmpRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-19 16:17:42.438  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.PTCodeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-19 16:17:42.439  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.PTSysRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-19 16:17:42.439  INFO [main] ? [] [] Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-11-19 16:17:42.778  INFO [main] ? [] [] Post-processing PropertySource instances
+2021-11-19 16:17:42.826  INFO [main] ? [] [] Converting PropertySource com.tssco.portalLogin.DecryptInitializer [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-19 16:17:42.854  INFO [main] ? [] [] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-11-19 16:17:42.855  INFO [main] ? [] [] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-11-19 16:17:42.855  INFO [main] ? [] [] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-11-19 16:17:42.856  INFO [main] ? [] [] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-19 16:17:42.857  INFO [main] ? [] [] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-11-19 16:17:42.857  INFO [main] ? [] [] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-11-19 16:17:42.857  INFO [main] ? [] [] Converting PropertySource Config resource 'class path resource [application-dev.yaml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-19 16:17:42.858  INFO [main] ? [] [] Converting PropertySource Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-19 16:17:42.909  INFO [main] ? [] [] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-11-19 16:17:43.310  INFO [main] ? [] [] Tomcat initialized with port(s): 8886 (http)
+2021-11-19 16:17:43.320  INFO [main] ? [] [] Initializing ProtocolHandler ["http-nio-8886"]
+2021-11-19 16:17:43.321  INFO [main] ? [] [] Starting service [Tomcat]
+2021-11-19 16:17:43.321  INFO [main] ? [] [] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-19 16:17:43.434  INFO [main] ? [] [] Initializing Spring embedded WebApplicationContext
+2021-11-19 16:17:43.434  INFO [main] ? [] [] Root WebApplicationContext: initialization completed in 2370 ms
+2021-11-19 16:17:43.513  INFO [main] ? [] [] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-11-19 16:17:43.518  INFO [main] ? [] [] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-11-19 16:17:43.651  INFO [main] ? [] [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-19 16:17:43.719  INFO [main] ? [] [] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-19 16:17:43.903  INFO [main] ? [] [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-19 16:17:44.031  INFO [main] ? [] [] HikariPool-1 - Starting...
+2021-11-19 16:17:44.548  INFO [main] ? [] [] HikariPool-1 - Start completed.
+2021-11-19 16:17:44.568  INFO [main] ? [] [] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-19 16:17:45.503  INFO [main] ? [] [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-19 16:17:45.514  INFO [main] ? [] [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-19 16:17:45.583  WARN [main] ? [] [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-19 16:17:46.711  INFO [main] ? [] [] 
+
+Using generated security password: db5cf56e-9d78-43ab-bb78-51a4744108a4
+
+2021-11-19 16:17:46.827  INFO [main] ? [] [] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4eef8498, org.springframework.security.web.context.SecurityContextPersistenceFilter@2181144e, org.springframework.security.web.header.HeaderWriterFilter@7b6d88d1, org.springframework.security.web.authentication.logout.LogoutFilter@40fd9358, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@582b6362, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34dc40d5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b158e16, org.springframework.security.web.session.SessionManagementFilter@38159192, org.springframework.security.web.access.ExceptionTranslationFilter@419dbd6d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@679f3e12]
+2021-11-19 16:17:47.311  INFO [main] ? [] [] Starting ProtocolHandler ["http-nio-8886"]
+2021-11-19 16:17:47.337  INFO [main] ? [] [] Tomcat started on port(s): 8886 (http) with context path ''
+2021-11-19 16:17:47.611  INFO [main] ? [] [] Started PortalLoginApplication in 7.19 seconds (JVM running for 8.418)
+2021-11-19 16:18:42.224  INFO [http-nio-8886-exec-1] ? [] [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-19 16:18:42.225  INFO [http-nio-8886-exec-1] ? [] [] Initializing Servlet 'dispatcherServlet'
+2021-11-19 16:18:42.227  INFO [http-nio-8886-exec-1] ? [] [] Completed initialization in 2 ms
+2021-11-19 17:22:32.276  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m17s233ms).
+2021-11-19 17:41:19.864  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m17s456ms).
+2021-11-19 18:39:23.273  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m32s980ms).
+2021-11-19 19:17:52.935  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m59s612ms).
+2021-11-19 20:02:53.095  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45m162ms).
+2021-11-19 20:23:30.015  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m36s918ms).
+2021-11-19 20:49:19.749  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m49s145ms).
+2021-11-20 02:50:47.466  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h32s120ms).
+2021-11-20 06:49:07.901  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h58m20s431ms).
+2021-11-20 14:45:06.417  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h55m58s105ms).
+2021-11-21 10:46:50.711  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h29s398ms).
+2021-11-21 12:47:10.851  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h19s863ms).
+2021-11-21 14:47:41.276  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h30s693ms).
+2021-11-21 18:48:11.810  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h30s534ms).
+2021-11-21 20:47:39.079  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h59m27s208ms).
+2021-11-22 08:05:30.339  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s690ms), soft-evicting connections from pool.
+2021-11-22 08:09:57.269  INFO [SpringApplicationShutdownHook] ? [] [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-22 08:09:57.292  INFO [SpringApplicationShutdownHook] ? [] [] HikariPool-1 - Shutdown initiated...
+2021-11-22 08:09:57.304  INFO [SpringApplicationShutdownHook] ? [] [] HikariPool-1 - Shutdown completed.
+2021-11-22 08:10:06.111  INFO [main] ? [] [] Starting PortalLoginApplication using Java 11.0.12 on WongdeMacBook-Pro.local with PID 33811 (/Users/wongrainie/Project/springboot/portalLogin/target/classes started by wongrainie in /Users/wongrainie/Project/springboot/portalLogin)
+2021-11-22 08:10:06.116  INFO [main] ? [] [] The following profiles are active: dev
+2021-11-22 08:10:07.451  INFO [main] ? [] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-22 08:10:07.454  INFO [main] ? [] [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-22 08:10:07.691  INFO [main] ? [] [] Finished Spring Data repository scanning in 226 ms. Found 3 JPA repository interfaces.
+2021-11-22 08:10:07.714  INFO [main] ? [] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-22 08:10:07.715  INFO [main] ? [] [] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-22 08:10:07.736  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.HREmpRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-22 08:10:07.738  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.PTCodeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-22 08:10:07.739  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.PTSysRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-22 08:10:07.740  INFO [main] ? [] [] Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-11-22 08:10:08.094  INFO [main] ? [] [] Post-processing PropertySource instances
+2021-11-22 08:10:08.141  INFO [main] ? [] [] Converting PropertySource com.tssco.portalLogin.DecryptInitializer [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-22 08:10:08.168  INFO [main] ? [] [] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-11-22 08:10:08.169  INFO [main] ? [] [] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-11-22 08:10:08.169  INFO [main] ? [] [] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-11-22 08:10:08.170  INFO [main] ? [] [] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-22 08:10:08.171  INFO [main] ? [] [] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-11-22 08:10:08.171  INFO [main] ? [] [] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-11-22 08:10:08.172  INFO [main] ? [] [] Converting PropertySource Config resource 'class path resource [application-dev.yaml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-22 08:10:08.172  INFO [main] ? [] [] Converting PropertySource Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-22 08:10:08.226  INFO [main] ? [] [] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-11-22 08:10:08.618  INFO [main] ? [] [] Tomcat initialized with port(s): 8886 (http)
+2021-11-22 08:10:08.630  INFO [main] ? [] [] Initializing ProtocolHandler ["http-nio-8886"]
+2021-11-22 08:10:08.631  INFO [main] ? [] [] Starting service [Tomcat]
+2021-11-22 08:10:08.631  INFO [main] ? [] [] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-22 08:10:08.748  INFO [main] ? [] [] Initializing Spring embedded WebApplicationContext
+2021-11-22 08:10:08.748  INFO [main] ? [] [] Root WebApplicationContext: initialization completed in 2576 ms
+2021-11-22 08:10:08.835  INFO [main] ? [] [] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-11-22 08:10:08.839  INFO [main] ? [] [] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-11-22 08:10:08.970  INFO [main] ? [] [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-22 08:10:09.058  INFO [main] ? [] [] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-22 08:10:09.240  INFO [main] ? [] [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-22 08:10:09.379  INFO [main] ? [] [] HikariPool-1 - Starting...
+2021-11-22 08:10:10.010  INFO [main] ? [] [] HikariPool-1 - Start completed.
+2021-11-22 08:10:10.034  INFO [main] ? [] [] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-22 08:10:10.965  INFO [main] ? [] [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-22 08:10:10.976  INFO [main] ? [] [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-22 08:10:11.042  WARN [main] ? [] [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-22 08:10:12.273  INFO [main] ? [] [] 
+
+Using generated security password: c90e6b47-2b86-4b60-b626-580d34931381
+
+2021-11-22 08:10:12.406  INFO [main] ? [] [] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10ef09e3, org.springframework.security.web.context.SecurityContextPersistenceFilter@2e89310c, org.springframework.security.web.header.HeaderWriterFilter@2181144e, org.springframework.security.web.authentication.logout.LogoutFilter@49825659, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@567412db, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36e6e59f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@776d50d6, org.springframework.security.web.session.SessionManagementFilter@582b6362, org.springframework.security.web.access.ExceptionTranslationFilter@38159192, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@68ad030d]
+2021-11-22 08:10:12.879  INFO [main] ? [] [] Starting ProtocolHandler ["http-nio-8886"]
+2021-11-22 08:10:12.912  INFO [main] ? [] [] Tomcat started on port(s): 8886 (http) with context path ''
+2021-11-22 08:10:13.147  INFO [main] ? [] [] Started PortalLoginApplication in 7.731 seconds (JVM running for 9.343)
+2021-11-22 08:11:54.518  INFO [http-nio-8886-exec-1] ? [] [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-22 08:11:54.519  INFO [http-nio-8886-exec-1] ? [] [] Initializing Servlet 'dispatcherServlet'
+2021-11-22 08:11:54.522  INFO [http-nio-8886-exec-1] ? [] [] Completed initialization in 2 ms
+2021-11-22 09:57:59.858  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m49s337ms).
+2021-11-22 10:01:56.996  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s96ms).
+2021-11-22 10:07:19.894  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m52s872ms).
+2021-11-22 12:09:20.777  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m174ms).
+2021-11-22 12:54:06.380  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m14s748ms).
+2021-11-22 13:03:47.074  WARN [HikariPool-1 housekeeper] ? [] [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m41s454ms).
+2021-11-22 13:55:49.393  INFO [SpringApplicationShutdownHook] ? [] [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-22 13:55:49.433  INFO [SpringApplicationShutdownHook] ? [] [] HikariPool-1 - Shutdown initiated...
+2021-11-22 13:55:49.453  INFO [SpringApplicationShutdownHook] ? [] [] HikariPool-1 - Shutdown completed.
+2021-11-22 13:56:37.903  INFO [main] ? [] [] Starting PortalLoginApplication using Java 11.0.12 on WongdeMacBook-Pro.local with PID 48068 (/Users/wongrainie/Project/springboot/portalLogin/target/classes started by wongrainie in /Users/wongrainie/Project/springboot/portalLogin)
+2021-11-22 13:56:37.907  INFO [main] ? [] [] The following profiles are active: dev
+2021-11-22 13:56:39.564  INFO [main] ? [] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-22 13:56:39.569  INFO [main] ? [] [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-22 13:56:39.877  INFO [main] ? [] [] Finished Spring Data repository scanning in 295 ms. Found 3 JPA repository interfaces.
+2021-11-22 13:56:39.910  INFO [main] ? [] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-22 13:56:39.912  INFO [main] ? [] [] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-22 13:56:39.938  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.HREmpRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-22 13:56:39.941  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.PTCodeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-22 13:56:39.942  INFO [main] ? [] [] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tssco.portalLogin.Repository.PTSysRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-11-22 13:56:39.943  INFO [main] ? [] [] Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2021-11-22 13:56:40.362  INFO [main] ? [] [] Post-processing PropertySource instances
+2021-11-22 13:56:40.420  INFO [main] ? [] [] Converting PropertySource com.tssco.portalLogin.DecryptInitializer [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-22 13:56:40.445  INFO [main] ? [] [] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-11-22 13:56:40.446  INFO [main] ? [] [] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-11-22 13:56:40.446  INFO [main] ? [] [] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-11-22 13:56:40.447  INFO [main] ? [] [] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-22 13:56:40.448  INFO [main] ? [] [] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-11-22 13:56:40.449  INFO [main] ? [] [] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-11-22 13:56:40.450  INFO [main] ? [] [] Converting PropertySource Config resource 'class path resource [application-dev.yaml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-22 13:56:40.450  INFO [main] ? [] [] Converting PropertySource Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-11-22 13:56:40.528  INFO [main] ? [] [] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-11-22 13:56:41.105  INFO [main] ? [] [] Tomcat initialized with port(s): 8886 (http)
+2021-11-22 13:56:41.117  INFO [main] ? [] [] Initializing ProtocolHandler ["http-nio-8886"]
+2021-11-22 13:56:41.118  INFO [main] ? [] [] Starting service [Tomcat]
+2021-11-22 13:56:41.119  INFO [main] ? [] [] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-22 13:56:41.254  INFO [main] ? [] [] Initializing Spring embedded WebApplicationContext
+2021-11-22 13:56:41.255  INFO [main] ? [] [] Root WebApplicationContext: initialization completed in 3285 ms
+2021-11-22 13:56:41.330  INFO [main] ? [] [] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-11-22 13:56:41.334  INFO [main] ? [] [] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-11-22 13:56:41.460  INFO [main] ? [] [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-22 13:56:41.522  INFO [main] ? [] [] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-22 13:56:41.691  INFO [main] ? [] [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-22 13:56:41.816  INFO [main] ? [] [] HikariPool-1 - Starting...
+2021-11-22 13:56:42.399  INFO [main] ? [] [] HikariPool-1 - Start completed.
+2021-11-22 13:56:42.422  INFO [main] ? [] [] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-22 13:56:43.505  INFO [main] ? [] [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-22 13:56:43.514  INFO [main] ? [] [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-22 13:56:43.587  WARN [main] ? [] [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-22 13:56:45.600  INFO [main] ? [] [] 
+
+Using generated security password: b2ae16b1-c0ec-45e3-b184-11c810ed727c
+
+2021-11-22 13:56:45.778  INFO [main] ? [] [] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4eef8498, org.springframework.security.web.context.SecurityContextPersistenceFilter@2181144e, org.springframework.security.web.header.HeaderWriterFilter@7b6d88d1, org.springframework.security.web.authentication.logout.LogoutFilter@40fd9358, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@582b6362, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34dc40d5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b158e16, org.springframework.security.web.session.SessionManagementFilter@38159192, org.springframework.security.web.access.ExceptionTranslationFilter@419dbd6d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@679f3e12]
+2021-11-22 13:56:46.532  INFO [main] ? [] [] Starting ProtocolHandler ["http-nio-8886"]
+2021-11-22 13:56:46.570  INFO [main] ? [] [] Tomcat started on port(s): 8886 (http) with context path ''
+2021-11-22 13:56:46.998  INFO [main] ? [] [] Started PortalLoginApplication in 9.711 seconds (JVM running for 10.845)
+2021-11-22 13:56:56.418  INFO [http-nio-8886-exec-1] ? [] [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-22 13:56:56.418  INFO [http-nio-8886-exec-1] ? [] [] Initializing Servlet 'dispatcherServlet'
+2021-11-22 13:56:56.422  INFO [http-nio-8886-exec-1] ? [] [] Completed initialization in 3 ms
+2021-11-22 13:57:04.840  INFO [SpringApplicationShutdownHook] ? [] [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-22 13:57:04.843  INFO [SpringApplicationShutdownHook] ? [] [] HikariPool-1 - Shutdown initiated...
+2021-11-22 13:57:04.856  INFO [SpringApplicationShutdownHook] ? [] [] HikariPool-1 - Shutdown completed.

@@ -75,9 +75,6 @@ public class AuthController {
         result.put( "token",token); 
         result.put( "account",account);
 
-        //儲存至Redis
-        redisUtils.set(account, result);
-
         ApiResponse  responseData = new ApiResponse();
         responseData.setStatus(true);
         responseData.setCode("200");
