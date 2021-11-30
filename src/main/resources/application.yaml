@@ -3,7 +3,7 @@ server:
 
 spring:
   profiles:
-   active: beta
+   active: dev
 jwt:
 #  hander: Autorization
   expire: 604800 #7天

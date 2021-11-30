@@ -1,4 +1,0 @@
-2021-11-20 00:50:15.899  WARN [HikariPool-1 housekeeper] HikariPool$HouseKeeper [run] [788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h25s443ms).
-2021-11-20 02:50:47.466  WARN [HikariPool-1 housekeeper] HikariPool$HouseKeeper [run] [788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h32s120ms).
-2021-11-20 06:49:07.901  WARN [HikariPool-1 housekeeper] HikariPool$HouseKeeper [run] [788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h58m20s431ms).
-2021-11-20 14:45:06.417  WARN [HikariPool-1 housekeeper] HikariPool$HouseKeeper [run] [788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h55m58s105ms).
